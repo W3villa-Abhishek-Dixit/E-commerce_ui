@@ -76,23 +76,8 @@
          </div>
    </div>
 
-   <!-- <div class="third-m">
-    <div class="third-in-m">
-        <div class="t1-m">
+   
 
-            <div class="t1-m-1">
-               <div class="btn-r"><button>Layout</button></div> 
-               <div class="con-m">Most Advanced<br>admin in opencart</div>
-                <div class="learn">Learn More</div>
-                
-
-            </div>
-            <div class="t1-m-2">  
-            </div>
-
-        </div>
-    </div>
-   </div> -->
 
 
 
@@ -391,114 +376,215 @@
 
 
     <script type="text/javascript">
-        $(document).ready(function () {
-            $('.carousel').slick({
-                infinite: true,
-                slidesToShow: 5,
-                slidesToScroll: 1,
-                // autoplay: true, 
-                autoplaySpeed: 2000,
-                arrows: true, // Show navigation arrows
-                dots: true ,// Show pagination dots
+       $(document).ready(function () {
+    $('.carousel').slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        // autoplay: true, 
+        autoplaySpeed: 2000,
+        arrows: true, // Show navigation arrows
+        dots: true, // Show pagination dots
 
-                responsive: [
-            {
-                breakpoint: 440,
-                settings: {
-                    slidesToShow: 2, // Show 2 slides on mobile
-                    slidesToScroll: 1
-                }
-            }
-        ]
-
-
-            });
-        });
-
-
-        $(document).ready(function () {
-            $('.carousel2').slick({
-                infinite: true,
-                slidesToShow: 5,
-                slidesToScroll: 1,
-                // autoplay: true, 
-                autoplaySpeed: 2000,
-                arrows: true, // Show navigation arrows
-                dots: true,
-                responsive: [
+        responsive: [
             {
                 breakpoint: 440,
                 settings: {
                     slidesToShow: 1, // Show 2 slides on mobile
                     slidesToScroll: 1
                 }
+            },
+            {
+                breakpoint: 780,
+                settings: {
+                    slidesToShow: 3, // Show 3 slides on tablet
+                    slidesToScroll: 1
+                }
             }
         ]
-            });
-        });
+    });
+});
+$(document).ready(function () {
+    $('.carousel2').slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        // autoplay: true, 
+        autoplaySpeed: 2000,
+        arrows: false, // Hide navigation arrows
+        dots: true, // Show pagination dots
 
-        $(document).ready(function () {
-            $('.carousel3').slick({
-                infinite: true,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-                // autoplay: true, 
-                autoplaySpeed: 2000,
-                arrows: false, // Show navigation arrows
-                dots: true,
-                responsive: [
+        responsive: [
             {
                 breakpoint: 440,
                 settings: {
-                    slidesToShow: 2, // Show 2 slides on mobile
+                    slidesToShow: 1, // Show 1 slide on mobile
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 780,
+                settings: {
+                    slidesToShow: 3, // Show 3 slides on tablet
+                    slidesToScroll: 1
+                }
+
+            },
+            {
+                breakpoint: 850,
+                settings: {
+                    slidesToShow: 3, // Show 1 slide on mobile
                     slidesToScroll: 1
                 }
             }
-        ] // Show pagination dots
-            });
-        });
+        ]
+    });
+});
+
+
+       
+        // $(document).ready(function () {
+        //     $('.carousel3').slick({
+        //         infinite: true,
+        //         slidesToShow: 4,
+        //         slidesToScroll: 1,
+        //         // autoplay: true, 
+        //         autoplaySpeed: 2000,
+        //         arrows: false, // Show navigation arrows
+        //         dots: true,
+        //         responsive: [
+        //     {
+        //         breakpoint: 440,
+        //         settings: {
+        //             slidesToShow: 2, // Show 2 slides on mobile
+        //             slidesToScroll: 1
+        //         }
+        //     }
+        // ] // Show pagination dots
+        //     });
+        // });
 
         $(document).ready(function () {
-            $('.carousel4').slick({
-                infinite: true,
-                slidesToShow: 8,
-                slidesToScroll: 1,
-                // autoplay: true, 
-                autoplaySpeed: 2000,
-                arrows: false, // Show navigation arrows
-                dots: true ,
-                responsive: [
+    $('.carousel3').slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        // autoplay: true, 
+        autoplaySpeed: 2000,
+        arrows: false, // Hide navigation arrows
+        dots: true, // Show pagination dots
+
+        responsive: [
             {
                 breakpoint: 440,
                 settings: {
-                    slidesToShow: 3, // Show 2 slides on mobile
+                    slidesToShow: 2, // Show 1 slide on mobile
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 780,
+                settings: {
+                    slidesToShow: 3, // Show 3 slides on tablet
                     slidesToScroll: 1
                 }
             }
-        ] // Show pagination dots
-            });
-        });
+        ]
+    });
+});
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        // $(document).ready(function () {
+        //     $('.carousel4').slick({
+        //         infinite: true,
+        //         slidesToShow: 8,
+        //         slidesToScroll: 1,
+        //         // autoplay: true, 
+        //         autoplaySpeed: 2000,
+        //         arrows: false, // Show navigation arrows
+        //         dots: true ,
+        //         responsive: [
+        //     {
+        //         breakpoint: 440,
+        //         settings: {
+        //             slidesToShow: 3, // Show 2 slides on mobile
+        //             slidesToScroll: 1
+        //         }
+        //     }
+        // ] // Show pagination dots
+        //     });
+        // });
 
         $(document).ready(function () {
-            $('.carousel5').slick({
-                infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                // autoplay: true, 
-                autoplaySpeed: 2000,
-                arrows: false, // Show navigation arrows
-                dots: true,
-                responsive: [
+    $('.carousel4').slick({
+        infinite: true,
+        slidesToShow: 8,
+        slidesToScroll: 1,
+        // autoplay: true, 
+        autoplaySpeed: 2000,
+        arrows: false, // Hide navigation arrows
+        dots: true, // Show pagination dots
+
+        responsive: [
             {
                 breakpoint: 440,
                 settings: {
-                    slidesToShow: 1, // Show 2 slides on mobile
+                    slidesToShow: 3, // Show 1 slide on mobile
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 780,
+                settings: {
+                    slidesToShow: 4, // Show 3 slides on tablet
                     slidesToScroll: 1
                 }
             }
-        ] 
-            });
-        });
+        ]
+    });
+});
+
+
+
+
+
+$(document).ready(function () {
+    $('.carousel5').slick({
+        infinite: true,
+        slidesToShow: 3,  // Default: Shows 3 slides
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        arrows: false, // Show navigation arrows
+        dots: true,
+        responsive: [
+            {
+                breakpoint: 780, // When the screen width is 780px or smaller
+                settings: {
+                    slidesToShow: 2, // Show 2 slides on screen width 780px or smaller
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 440, // When the screen width is 440px or smaller
+                settings: {
+                    slidesToShow: 1, // Show 1 slide on very small screens (mobile)
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+});
+
 
     </script>
 
@@ -516,14 +602,14 @@
         <div class="eight-2"></div>
 
         <div class="eight-3">
-            <p>Display any product as tabs or accordians with optional grid or carousel mode.Custom products per row per module and per breakpoint.<br>
+            <p>Display any product as tabs or accordians with option grid or carousel mode.Custom products per row per module and per breakpoint.<br>
             </p>
         </div>
         <div class="etemp">
             <p>Each module can display product in either grid or list view with different style per module </p>
         </div>
 
-        <div class="eight-4">
+        <div class="eight-4" id="tempsss">
             <div class="eight-4-1">FEATURED</div>
             <div class="eight-4-2">LATEST</div>
             <div class="eight-4-3">BESTSELLERS</div>
@@ -1155,7 +1241,7 @@
   <!--Fourteen slide-->
   <div class="fourteen">
     <div class="fourteenin">
-        <div class="brand"><h1>From our Blog</h1></div>
+        <div class="brand-m1"><h1>From our Blog</h1></div>
         <div class="line"></div>
         <div class="content-3">
             <p>Easily create category based module and display product from specific categories or brands only.The advanced page builder allow you<br>
@@ -1269,7 +1355,7 @@
 
   <div class="fifteen">
     <div class="fifteenin">
-        <div class="brand"><h1>What are people saying about us</h1></div>
+        <div class="brand-m2"><h1>What are people saying about us</h1></div>
         <div class="line"></div>
         <div class="carousel5">
 
