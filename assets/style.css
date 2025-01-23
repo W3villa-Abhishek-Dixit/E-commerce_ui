@@ -1793,8 +1793,9 @@ margin: auto;
     .list1,.list2,.list3{
         font-size: 15px;
         display: flex;
-        gap:5px;
+        gap:19px;
     }
+
     .header
 { 
   
@@ -1807,6 +1808,67 @@ margin: auto;
     margin-bottom: 0px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.list2{
+    display: none;
+}
+
+.l3 ,.l4,.c,.d{
+    display: none;
+}
+.a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.six-4-3,.six-4-4{
+    display: flex;
+}
+
+.a i,.b i{
+    color: blue;
+}
+.nav1-1{
+    color: #0d51e6;
+}
+.nav{
+    background-color: #0d51e6;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1839,7 +1901,7 @@ margin: auto;
 
 .nav1-3{
     display: flex;
-    gap:10px;
+    gap:20px;
     color: gray;
     margin-bottom: 30px;
 }
@@ -1849,7 +1911,7 @@ margin: auto;
 }
 
 .d i,.c i,.b i,.a i{
-    margin-left: 18px;
+    margin-left: 9px;
 }
 
 
@@ -2172,11 +2234,17 @@ margin-top: 30px;
     justify-content: center;
     align-items: center;
 
+
+    
+
 }
 .six-3,.stemp{
     width:100%;
     color: gray;
     font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .six-4{
     
@@ -2204,7 +2272,7 @@ margin-top: 30px;
     margin-right: 35px;
 }
 .six-4-3,.six-4-4{
-    display: none;
+    display: flex;
 }
 
 .seventhslide{
@@ -2582,7 +2650,7 @@ margin-top: 30px;
 .eleveninside{
     max-width: 1600px;
    
-     height:1200px;
+    height: 1390px;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -2702,13 +2770,13 @@ margin: auto;
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-left: 30px;
-    font-size: 12px;
+    gap: 27px;
+    margin-left: 35px;
+    font-size: 14px;
     line-height: 10px;
     margin-top: 10px;
     height: 127px;
-    margin-top:10px;
+    margin-top:45px;
 }
 
 
